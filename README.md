@@ -1,7 +1,58 @@
-Reddit Miner
+# Social Insight Engine
 
-Reddit Miner is an open-source, AI-assisted pipeline designed to discover, scrape, and structure Reddit conversations. The goal of the project is to make Reddit data easy to collect, clean, and use for research, analysis, and application development.
+![Project Status](https://img.shields.io/badge/status-active-success.svg)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 
-The system is built with Python, Django, PostgreSQL, and large language models (LLMs). It focuses on reliability, fault tolerance, and clean data output. Reddit Miner can automatically discover relevant threads, extract posts and comments, process the data in the background, and convert raw Reddit text into structured formats suitable for downstream tasks. It is designed to be extensible, allowing developers and researchers to add new extractors, processing steps, or AI models based on their needs.
+**Social Insight Engine** is a comprehensive, AI-driven data intelligence toolkit designed to autonomously discover, extract, and structure complex conversation threads from social platforms. By leveraging advanced Large Language Models (LLMs) and graph-based extraction pipelines, it transforms unstructured social media noise into high-value, structured datasets for research, sentiment analysis, and predictive modeling.
 
-Reddit Miner provides a flexible, maintainable architecture for anyone looking to work with large-scale Reddit data in a consistent and automated way.
+## 🚀 Key Features
+
+*   **Intelligent Discovery**: Autonomous agents that identify high-relevance trend clusters and discussion threads.
+*   **Context-Aware Extraction**: Uses LLMs to parse nested conversations, preserving semantic context often lost in traditional scraping.
+*   **Structured Output**: Converts raw unstructured text into clean, relational, or graph-based formats suitable for immediate downstream analysis.
+*   **Extensible Architecture**: Modular design allowing for easy integration of custom extraction logic, new data sources, and specialized AI models.
+
+## 📂 Project Structure
+
+```bash
+social-insight-engine/
+├── notebooks/       # Jupyter notebooks for interactive analysis and agent prototypes
+├── src/             # Source code for core engine components (under active development)
+├── docs/            # Documentation and architectural diagrams
+├── tasks.yaml       # Automation scripts configuration
+└── requirements.txt # Project dependencies
+```
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+*   Python 3.8+
+*   Jupyter Notebook
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/social-insight-engine.git
+    cd social-insight-engine
+    ```
+
+2.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Usage
+
+Launch the interactive notebook environment to explore the extraction agents:
+
+```bash
+jupyter notebook
+```
+
+Navigate to the `notebooks/` directory to run specific agent workflows.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
