@@ -53,6 +53,3 @@ jupyter notebook
 
 Navigate to the `notebooks/` directory to run specific agent workflows.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
